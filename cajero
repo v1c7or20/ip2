@@ -1,0 +1,24 @@
+class Cajero {
+  private:
+    int tiempo;
+  public:
+    void setTiempo(int tiempo);
+    int atender(); // resta un minuto de atencion.
+    bool estaLibre(); // Devuelve true si ya no esta ocupado.
+    Cajero();
+    ~Cajero();
+};
+
+
+Cajero::Cajero()
+{
+    //ctor
+}
+
+Cajero::~Cajero()
+{
+    //dtor
+}
+void Cajero::atender()
+void Cajero::setTiempo()
+bool Cajero::estaLibre()
