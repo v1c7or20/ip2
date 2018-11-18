@@ -12,6 +12,7 @@ Cajero::~Cajero()
 
 void Cajero::setTiempo(int _tiempo){
     tiempo=_tiempo;
+    tiempo_total+=tiempo;
 }
 void Cajero::atender(){
     tiempo=tiempo-1;
@@ -21,4 +22,8 @@ bool Cajero::estaLibre(){
         return (true);
     }
     else return false;
+}
+
+int Cajero::gettiempototal(){
+    return (tiempo_total);
 }

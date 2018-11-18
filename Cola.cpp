@@ -5,16 +5,14 @@ n=_n;
 tiempo = 0;
 ptr = new Cliente[n];}
 
-Cola::~Cola()
-{
+Cola::~Cola(){
     //dtor
 }
 void Cola::getCliente(){
     for(int i=0;i<n;i++){
         Sleep(10);
-        ptr->setTiempo();
+        ptr[i].setTiempo();
     }
-    ptr=ptr-n;
 }
 void Cola::getClientev3(){
     for(int i=0;i<n;i++){

@@ -31,14 +31,16 @@ int main()
     cout<<ca1.get_tiempo();
     while(!ca1.estaLibre()){
             ca1.atender();
-            cout<<"atiendo";
+            cout<<"atiendo"<<endl;
     }
-    Banco b1(n,n-2);
+    Banco b1(5,n);
     b1.setCliente();
-    int i=0;
-    while( i<15){
+    while(!b1.colavacia()){
     b1.simularAtencion();
-    i++;}
+    for (int i=0;i<b1.getnumcaje();i++){
+    cout<<(b1.getcajero())[i].get_tiempo()<<"    ";}
+    cout<<"\n";
+    }
 
 
   /*

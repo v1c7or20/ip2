@@ -5,7 +5,8 @@
 class Cajero {
   private:
     int id;
-    int tiempo;
+    int tiempo=0;
+    int tiempo_total=0;
   public:
     void setTiempo(int _tiempo);
     void atender(); // resta un minuto de atencion.
@@ -13,6 +14,7 @@ class Cajero {
     int get_tiempo(){return tiempo;}// Devuelve true si ya no esta ocupado.
     Cajero();
     ~Cajero();
+    int gettiempototal();
 };
 
 
