@@ -41,19 +41,20 @@ int main()
     cout<<(b1.getcajero())[i].get_tiempo()<<"    ";}
     cout<<"\n";
     }
+    //Este es mi pinchi comentario
 
 
   /*
   1. Establecer numero de clientes
   2. Establecer numero de cajeros.
   3. Asignar tiempo aleatorio a los clientes.
-  4. Asignar aleatoriamente los clientes a la cola escenario 1. Y Según prioridad a escenario 2.
-  5. Mostrar el tiempo de ejecución.
+  4. Asignar aleatoriamente los clientes a la cola escenario 1. Y Segï¿½n prioridad a escenario 2.
+  5. Mostrar el tiempo de ejecuciï¿½n.
 
   Consideraciones.
 
   Puede incorporar Herencia en el proyecto.
-  Use relaciones entre clases como se describe en el código de ejemplo.
+  Use relaciones entre clases como se describe en el cï¿½digo de ejemplo.
   */
   return 0;
 }
